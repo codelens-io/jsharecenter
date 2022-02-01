@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>hu.codelens.sharecenter</groupId>
+    <artifactId>jShareCenter</artifactId>
+    <version>1.0.0</version>
+
+    <name>jShareCenter</name>
+    <description>Command line utility for DNS-327L ShareCenter</description>
+    <inceptionYear>2022</inceptionYear>
+
+    <url>https://github.com/devbench/uibuilder</url>
+
+    <scm>
+        <url>https://gitlab.com/codelens-io/jsharecenter</url>
+        <connection>git@github.com/codelens-io/jsharecenter.git </connection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <finalName>jsharecenter</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>hu.codelens.sharecenter.App</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <developers>
+        <developer>
+            <id>majki</id>
+            <name>Attila Majoros</name>
+            <email>majki@majki.org</email>
+        </developer>
+    </developers>
+
+</project>
