@@ -5,7 +5,7 @@
 
     <groupId>hu.codelens.sharecenter</groupId>
     <artifactId>jShareCenter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>jShareCenter</name>
     <description>Command line utility for DNS-327L ShareCenter</description>
