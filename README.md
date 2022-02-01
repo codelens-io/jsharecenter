@@ -17,7 +17,7 @@ This small CLI will make exactly this with a just only a short command:
 $ jsharecenter --host sharecenter.local
 ```
 
-https://user-images.githubusercontent.com/21309032/151986646-6fd17cfd-5e8e-4233-8d68-ec0b2397fd32.mp4
+![jsharecenter_demo_1_0_0](https://user-images.githubusercontent.com/21309032/151987884-856867d6-00f9-4082-b0b4-8afe14999eda.gif)
 
 ## Future plans
 
